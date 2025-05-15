@@ -12,3 +12,4 @@ C:\Users\caplascencia\Downloads\curso-csharp-devtalles\HelloApp\obj\Debug\net9.0
 C:\Users\caplascencia\Downloads\curso-csharp-devtalles\HelloApp\obj\Debug\net9.0\HelloApp.pdb
 C:\Users\caplascencia\Downloads\curso-csharp-devtalles\HelloApp\obj\Debug\net9.0\HelloApp.genruntimeconfig.cache
 C:\Users\caplascencia\Downloads\curso-csharp-devtalles\HelloApp\obj\Debug\net9.0\ref\HelloApp.dll
+C:\Users\caplascencia\Downloads\curso-csharp-devtalles\HelloApp\obj\Debug\net9.0\HelloApp.sourcelink.json

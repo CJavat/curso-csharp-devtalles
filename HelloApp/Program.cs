@@ -5,6 +5,12 @@ partial class Program
   {
     // Variables();
     // DataTypes();
-    NumericTypes();
+    // NumericTypes();
+    // ShowStringType();
+    // SalesReport();
+    // SalaryCalculator();
+    // ShowTime();
+    // DaysOfLife();
+    DaysUntilNextBirthday();
   }
 }

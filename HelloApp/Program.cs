@@ -13,6 +13,9 @@ partial class Program
     // DaysOfLife();
     // DaysUntilNextBirthday();
     // TypeDifference();
-    HandleNulleables();
+    // HandleNulleables();
+    // Arrays();
+    // InventoryManager();
+    ListDictionary();
   }
 }

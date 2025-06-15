@@ -8,6 +8,6 @@ partial class Program
     char character = 'C';
     string text = "Hola Mundo";
 
-    Console.WriteLine($"Entero {integer}, Decimal: {decimalNumber}, Booleano: {isTrue}, Caracter: {character}, Texto: {text}");
+    WriteLine($"Entero {integer}, Decimal: {decimalNumber}, Booleano: {isTrue}, Caracter: {character}, Texto: {text}");
   }
 }

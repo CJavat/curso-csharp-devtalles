@@ -3,6 +3,7 @@ partial class Program
 {
   static void Main(string[] args)
   {
+    #region Sección 2
     // Variables();
     // DataTypes();
     // NumericTypes();
@@ -19,7 +20,16 @@ partial class Program
     // ListDictionary();
     // DataStructures();
     // Generics();
+    #endregion
+
+    #region Sección 3
     // Conditionals();
-    Loops();
+    // Loops();
+    // FizzBuzz();
+    // LoopsControlExamples();
+    // LoopGame();
+    // Conversions();
+    ConvertionToDateTime();
+    #endregion
   }
 }

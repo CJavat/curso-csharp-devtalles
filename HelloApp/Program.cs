@@ -29,7 +29,12 @@ partial class Program
     // LoopsControlExamples();
     // LoopGame();
     // Conversions();
-    ConvertionToDateTime();
+    // ConvertionToDateTime();
+    // Functions();
+    // PrintMultiplicationTable(7);
+    // PrintFactorialTable(3);
+    // Tuples();
+    AnonymousFunctions();
     #endregion
   }
 }

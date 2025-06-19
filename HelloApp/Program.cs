@@ -34,7 +34,17 @@ partial class Program
     // PrintMultiplicationTable(7);
     // PrintFactorialTable(3);
     // Tuples();
-    AnonymousFunctions();
+    // AnonymousFunctions();
+    #endregion
+
+    #region Sección 4
+    // TestingClass();
+    // Properties();
+    Methods();
+    // Forzar la recolección de basura
+    GC.Collect();
+    // Ejecuten los finalizadores
+    GC.WaitForPendingFinalizers();
     #endregion
   }
 }

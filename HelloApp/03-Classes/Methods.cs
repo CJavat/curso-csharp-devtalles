@@ -43,7 +43,7 @@ partial class Program
     public Car(string model, int year)
     {
       Model = model;
-      year = year;
+      Year = year;
     }
 
     // Constructor por defecto

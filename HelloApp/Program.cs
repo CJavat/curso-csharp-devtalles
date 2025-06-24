@@ -40,11 +40,14 @@ partial class Program
     #region Sección 4
     // TestingClass();
     // Properties();
-    Methods();
+    // Methods();
     // Forzar la recolección de basura
-    GC.Collect();
+    // GC.Collect();
     // Ejecuten los finalizadores
-    GC.WaitForPendingFinalizers();
+    // GC.WaitForPendingFinalizers();
+    // ProductSalesDemo();
+    // BusFleet();
+    Inheritance();
     #endregion
   }
 }

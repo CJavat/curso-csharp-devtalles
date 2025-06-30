@@ -30,6 +30,11 @@ class HowgartsStudent : Character
   {
     WriteLine($"Pertenezco a la casa {House} en Howgarts");
   }
+
+  public override void Greet()
+  {
+    WriteLine($"Hola, soy {Name} y soy estudiante");
+  }
 }
 
 class HowgartsProfessor : Character
@@ -39,5 +44,10 @@ class HowgartsProfessor : Character
   public void MySubject()
   {
     WriteLine($"Enseño {Subject} en Howgarts");
+  }
+
+  public override void Greet()
+  {
+    WriteLine($"Hola, soy {Name} y soy profesor");
   }
 }

@@ -2,7 +2,17 @@ partial class Program
 {
   static void ShowEmployeesInformation()
   {
+    List<Employee> employees = new List<Employee>();
+    employees.Add(new TeamLeader("Carlos", 5000));
+    employees.Add(new Developer("Ana", 4000));
+    employees.Add(new TeamLeader("Laura", 6000));
+    employees.Add(new Developer("Luis", 3500));
 
+    WriteLine("Lista De Empleados");
+    foreach (var employee in employees)
+    {
+      employee.ShowInfo();
+    }
   }
 }
 
@@ -26,7 +36,7 @@ abstract class Employee
 
   public void ShowInfo()
   {
-    WriteLine($"Nombre: {Name}, Cargo: {Position}, Salario: {Salary}, Bono Calculado: {CalculateBonus()}");
+    WriteLine($"Nombre: {Name}, Cargo: {Position}, Salario: {Salary:C}, Bono Calculado: {CalculateBonus():C}");
   }
 }
 

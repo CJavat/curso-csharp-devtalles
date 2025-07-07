@@ -50,7 +50,11 @@ partial class Program
     // Inheritance();
     // AbstractClassExamples();
     // Visibility();
-    ShowEmployeesInformation();
+    // ShowEmployeesInformation();
+    #endregion
+
+    #region Sección 5
+    HandleExceptions();
     #endregion
   }
 }

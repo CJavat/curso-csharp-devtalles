@@ -52,11 +52,29 @@ partial class Program
                               select c.Name?.ToUpper();
 
     var uppercaseNamesMethod = characters.Select(c => c.Name?.ToUpper());
-    WriteLine("Los nombres en mayúsculas");
+    // WriteLine("Los nombres en mayúsculas");
 
-    foreach (var name in uppercaseNamesMethod)
+    // foreach (var name in uppercaseNamesMethod)
+    // {
+    //   WriteLine(name);
+    // }
+
+    var sortedQuery = from c in characters
+                      orderby c.Name
+                      select c.Name;
+    var sortedMethod = characters.OrderByDescending(c => c.Name);
+    // WriteLine("Ordenar los nombres de manera descendente");
+    // foreach (var character in sortedMethod)
+    // {
+    //   WriteLine(character.Name);
+    // }
+
+    var firstThreeQuery = (from c in characters select c).Take(3);
+    var firstThreeMethod = characters.Take(3);
+    WriteLine("Obteniendo los primeros tres");
+    foreach (var character in firstThreeQuery)
     {
-      WriteLine(name);
+      WriteLine(character.Name);
     }
   }
 }

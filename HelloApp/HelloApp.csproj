@@ -11,4 +11,8 @@
     <Using Include="System.Console" Static="true" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="BetterConsoleTables" Version="1.1.3" />
+  </ItemGroup>
+
 </Project>

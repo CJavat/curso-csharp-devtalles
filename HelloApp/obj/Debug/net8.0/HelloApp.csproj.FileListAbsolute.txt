@@ -28,3 +28,6 @@ C:\Users\caplascencia\Documents\DEV\curso-csharp-devtalles\HelloApp\obj\Debug\ne
 C:\Users\caplascencia\Documents\DEV\curso-csharp-devtalles\HelloApp\obj\Debug\net8.0\HelloApp.pdb
 C:\Users\caplascencia\Documents\DEV\curso-csharp-devtalles\HelloApp\obj\Debug\net8.0\HelloApp.genruntimeconfig.cache
 C:\Users\caplascencia\Documents\DEV\curso-csharp-devtalles\HelloApp\obj\Debug\net8.0\ref\HelloApp.dll
+C:\Users\CJavatX\Documents\cursos\curso-csharp-devtalles\HelloApp\bin\Debug\net8.0\BetterConsoleTables.dll
+C:\Users\CJavatX\Documents\cursos\curso-csharp-devtalles\HelloApp\obj\Debug\net8.0\HelloApp.csproj.AssemblyReference.cache
+C:\Users\CJavatX\Documents\cursos\curso-csharp-devtalles\HelloApp\obj\Debug\net8.0\HelloApp.csproj.Up2Date

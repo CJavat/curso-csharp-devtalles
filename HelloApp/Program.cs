@@ -66,7 +66,11 @@ partial class Program
     // DirectoryExample();
     // PartialClass();
     // WriteFileExample();
-    ManageJsonFile.Program.ManageJsonFile();
+    // ManageJsonFile.Program.ManageJsonFile();
+    #endregion
+
+    #region Sección 7
+    TaskMaster.Program.TaskMaster();
     #endregion
   }
 }

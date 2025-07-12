@@ -1,0 +1,4 @@
+Podemos escribir en un archivo
+La hora actual es: 06:03:40
+Esto se añadirá al final del archivo.
+La hora actual es: 06:04:53

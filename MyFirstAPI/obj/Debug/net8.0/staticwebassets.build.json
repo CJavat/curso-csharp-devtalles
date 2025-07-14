@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "GYSD22sc63Va3whh3b1oQ8EW59m+g0SE753Z9bN4zOk=",
+  "Source": "MyFirstAPI",
+  "BasePath": "_content/MyFirstAPI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "MyFirstAPI\\wwwroot",
+      "Source": "MyFirstAPI",
+      "ContentRoot": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\MyFirstAPI\\wwwroot\\",
+      "BasePath": "_content/MyFirstAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\MyFirstAPI\\wwwroot\\index.html",
+      "SourceId": "MyFirstAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\MyFirstAPI\\wwwroot\\",
+      "BasePath": "_content/MyFirstAPI",
+      "RelativePath": "index#[.{fingerprint}]?.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "58lis1vk0s",
+      "Integrity": "9Wu11AN61rptN4fViSjlb01c6cKsOuqEqbgz1iHZEXU=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\index.html"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "index.58lis1vk0s.html",
+      "AssetFile": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\MyFirstAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Wu11AN61rptN4fViSjlb01c6cKsOuqEqbgz1iHZEXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Jul 2025 14:58:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "58lis1vk0s"
+        },
+        {
+          "Name": "label",
+          "Value": "index.html"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Wu11AN61rptN4fViSjlb01c6cKsOuqEqbgz1iHZEXU="
+        }
+      ]
+    },
+    {
+      "Route": "index.html",
+      "AssetFile": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\MyFirstAPI\\wwwroot\\index.html",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "274"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "text/html"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"9Wu11AN61rptN4fViSjlb01c6cKsOuqEqbgz1iHZEXU=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Mon, 14 Jul 2025 14:58:53 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-9Wu11AN61rptN4fViSjlb01c6cKsOuqEqbgz1iHZEXU="
+        }
+      ]
+    }
+  ]
+}

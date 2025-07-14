@@ -1,25 +1,28 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj": {}
+    "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj": {}
   },
   "projects": {
-    "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj": {
+    "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
+        "projectUniqueName": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
         "projectName": "HelloApp",
-        "projectPath": "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
-        "packagesPath": "C:\\Users\\CJavatX\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\obj\\",
+        "projectPath": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
+        "packagesPath": "C:\\Users\\caplascencia\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\CJavatX\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "C:\\Users\\caplascencia\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "net8.0"
         ],
         "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "C:\\Program Files\\dotnet\\library-packs": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -36,8 +39,9 @@
         "restoreAuditProperties": {
           "enableAudit": "true",
           "auditLevel": "low",
-          "auditMode": "direct"
-        }
+          "auditMode": "all"
+        },
+        "SdkAnalysisLevel": "9.0.100"
       },
       "frameworks": {
         "net8.0": {
@@ -64,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.410/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.100-rc.2.24474.11/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

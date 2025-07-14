@@ -70,7 +70,7 @@ partial class Program
     #endregion
 
     #region Sección 7
-    TaskMaster.Program.TaskMaster();
+    // TaskMaster.Program.TaskMaster();
     #endregion
   }
 }

@@ -1,10 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "8tPQjXTJ3jY=",
+  "dgSpecHash": "Z2WsVYXet+o=",
   "success": true,
-  "projectFilePath": "C:\\Users\\CJavatX\\Documents\\cursos\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
+  "projectFilePath": "C:\\Users\\caplascencia\\Documents\\DEV\\curso-csharp-devtalles\\HelloApp\\HelloApp.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\CJavatX\\.nuget\\packages\\betterconsoletables\\1.1.3\\betterconsoletables.1.1.3.nupkg.sha512"
+    "C:\\Users\\caplascencia\\.nuget\\packages\\betterconsoletables\\1.1.3\\betterconsoletables.1.1.3.nupkg.sha512"
   ],
   "logs": []
 }

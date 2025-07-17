@@ -24,4 +24,50 @@ public class TaskController : ControllerBase
 
     return Ok(task);
   }
+
+  [HttpPost]
+  public ActionResult<Models.Task> CreateTask(Models.TaskInsert taskInsert)
+  {
+    var newTask = new Models.Task(){
+      Id = TaskDataStore.Current.Tasks.Max(t => t.Id) + 1,
+      CreatedAt = DateTime.Now,
+      UpdatedAt = DateTime.Now,
+      IsCompleted = false,
+      Title = taskInsert.Title,
+      Description = taskInsert.Description
+    };
+
+    TaskDataStore.Current.Tasks.Add(newTask);
+    return Ok(newTask);
+  }
+
+  [HttpPut("{id}")]
+  public ActionResult<Models.Task> UpdateTask(int id, Models.TaskInsert taskInsert)
+  {
+    var task = TaskDataStore.Current.Tasks.FirstOrDefault(t => t.Id == id);
+    if (task == null)
+    {
+      return NotFound("No se encontró la tarea");
+    }
+
+    task.Title = taskInsert.Title;
+    task.Description = taskInsert.Description;
+    task.UpdatedAt =  DateTime.Now;
+
+    return Ok(task);
+  }
+
+  [HttpDelete("{id}")]
+  public ActionResult DeleteTask(int id) 
+  {
+    var task = TaskDataStore.Current.Tasks.FirstOrDefault(t => t.Id == id);
+    if (task == null)
+    {
+      return NotFound("No se encontró la tarea");
+    }
+
+    TaskDataStore.Current.Tasks.Remove(task);
+
+    return NoContent();
+  }
 }
